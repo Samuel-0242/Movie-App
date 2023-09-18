@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#top-bar {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#search-bar {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+#user-info {
+    display: flex;
+    align-items: center;
+}
+
+#sidebar {
+    background-color: black;
+    width: 200px;
+    padding: 20px;
+    float: left;
+}
+
+#main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.movie-card {
+    width: 200px;
+    height: 300px;
+    background-color: #333;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
